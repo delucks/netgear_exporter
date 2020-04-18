@@ -1,7 +1,7 @@
 package collectors
 
 import (
-	"github.com/DRuggeri/netgear_client"
+	"github.com/delucks/netgear_client"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
 	"strconv"

@@ -6,14 +6,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DRuggeri/netgear_client"
+	"github.com/delucks/netgear_client"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
 	"github.com/prometheus/common/version"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/DRuggeri/netgear_exporter/collectors"
-	"github.com/DRuggeri/netgear_exporter/filters"
+	"github.com/delucks/netgear_exporter/collectors"
+	"github.com/delucks/netgear_exporter/filters"
 )
 
 var (
